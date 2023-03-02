@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "tabitem": "/pages/system_tab/system_tab_item"
+  }
+}

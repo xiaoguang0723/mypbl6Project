@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "项目",
+  "usingComponents": {
+    "list-item": "/pages/project/project_item"
+  }
+}

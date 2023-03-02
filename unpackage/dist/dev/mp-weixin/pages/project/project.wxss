@@ -1,0 +1,102 @@
+
+view,
+label,
+swiper-item,
+scroll-view {
+  display:flex;
+  flex-direction:column;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  align-content: flex-start;
+}
+view,
+image,
+input,
+scroll-view,
+swiper,
+swiper-item,
+text,
+textarea,
+video {
+  position: relative;
+  border: 0px solid #000000;
+  box-sizing: border-box;
+}
+swiper-item {
+  position: absolute;
+}
+button {
+  margin: 0;
+}
+
+
+.pro {
+		flex: 1;
+}
+.top{
+	border-bottom-width: 1rpx;
+	border-bottom-color: #eee;
+	border-bottom-style:solid;
+}
+.scroll_top {
+		width: 750rpx;
+		flex-direction: row;
+		padding: 10px 0px;
+
+		/* background-color: #fff; */
+}
+.tabs {
+		/* margin: 0 5px; */
+}
+.tabtxt {
+		color: #aaa;
+		font-size: 14px;
+		padding: 0 10px;
+}
+.active {
+		color: #DD524D;
+}
+.bot {
+		flex: 1;
+		
+		background-color: #eee;
+		
+		/* background-image: url(../../static/applogo.jpg); */
+}
+.swiper {
+		flex: 1;
+}
+.swiper_item {
+		flex: 1;
+}
+.cell {
+}
+.loading_txt{
+		/* margin-left: 2px; */
+		line-height: 60px;
+		font-size: 14px;
+		color: #999;
+		padding: 10px 0;
+}
+.refresh{
+		height: 60px;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+}
+.loading-icon {
+		width: 20px;
+		height: 20px;
+		margin-right: 5px;
+		color: #999;
+}
+.loading-more-text{
+		line-height: 30px;
+		font-size: 14px;
+		color: #999;
+		padding: 10px 0;
+		text-align: center;
+}
+

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "公众号",
+  "usingComponents": {
+    "list-item": "/pages/account/account_item"
+  }
+}

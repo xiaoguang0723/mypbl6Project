@@ -1,0 +1,80 @@
+
+.main {
+	flex-direction: row;
+	height: 100px;
+	align-items: center;
+	padding: 10px 5px;
+	margin: 2px 0;
+	background-color: #fff;
+	border-radius: 4px;
+}
+.iconfont {
+	font-family: iconfont;
+	font-size: 16px;
+}
+.right {
+	width: 60px;
+	height: 60px;
+	margin-left: 5px;
+	border-radius: 50%;
+	overflow: hidden;
+	padding: 10px 0px;
+	background-color: #F24544;
+	align-items: center;
+	justify-content: center;
+}
+.left {
+	flex: 1;
+	height: 90px;
+	/* background-color: #4C6789; */
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 10px 5px;
+}
+.title {
+	font-size: 14px;
+	color: #333;
+	/* font-weight: bold; */
+	lines: 3;
+	justify-content: flex-start;
+	text-overflow: ellipsis;
+}
+.des {
+	font-size: 12px;
+	color: #999;
+	/* font-weight: bold; */
+	lines: 3;
+	text-overflow: ellipsis;
+}
+.oprate {
+	flex-direction: row;
+	align-items: center;
+}
+.time {
+	font-size: 12px;
+	color: #aaa;
+	margin-left: 20px;
+}
+.author {
+	font-size: 12px;
+	color: #aaa;
+	margin-left: 20px;
+}
+.imgs {
+	flex: 1;
+}
+.hover {
+	background-color: #efefef;
+}
+.rtxt {
+	color: #fff;
+	font-size: 12px;
+}
+.collect_status {
+	font-size: 12px;
+	color: #aaa;
+}
+.collec_true {
+	color: #DD524D;
+}
+
